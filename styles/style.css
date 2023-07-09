@@ -3,11 +3,32 @@ body {
   margin: 0;
 }
 .bg-primary {
+  background-color: orangered;
+  color: white;
 }
 .primary {
   color: orangered;
 }
-/* navbar styles */
+.title {
+  font-size: 50px;
+  font-weight: bold;
+}
+.title-banner {
+  font-size: 86px;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+.description {
+  font-size: 22px;
+}
+.btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+}
+/* header and navbar styles */
 nav {
   background: #d6d2d2;
 }
@@ -23,4 +44,28 @@ nav {
   list-style: none;
   gap: 1rem;
   font-size: 18px;
+}
+header {
+  background-image: url('../asset/image/background.jpg'),
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+}
+.banner-section {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.banner-container {
+  max-width: 830px;
+  text-align: center;
+}
+.banner-section .bg-primary {
+  margin-right: 1rem;
 }
