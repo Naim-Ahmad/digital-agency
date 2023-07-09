@@ -81,6 +81,7 @@ header {
     linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 5rem;
 }
 .services-container {
   display: flex;
@@ -135,4 +136,31 @@ header {
   position: absolute;
   top: -20px;
   right: -10%;
+}
+/* appointment styles */
+.appointment-section {
+  max-width: 1170px;
+  margin: 0 auto;
+  background-color: orangered;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  margin-top: -100px;
+  color: white;
+  align-items: center;
+  padding: 3rem;
+  position: relative;
+}
+.appointment-text {
+  width: 480px;
+}
+.appointment-phone::after {
+  content: '';
+  width: 2px;
+  height: 150px;
+  background-color: gray;
+  position: absolute;
+  top: 18px;
+  left: 450px;
 }
